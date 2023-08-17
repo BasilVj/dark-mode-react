@@ -1,0 +1,117 @@
+.app__hero {
+    padding: 2rem 4rem 2rem;
+    background-image: url(../../public/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.app__hero-dark {
+    padding: 2rem 4rem 2rem;
+    background-image: url(../../public/dark1.jpg);
+    background-size: cover;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.mySwiper {
+    width: 100%;
+    height: 100%;
+}
+
+.text {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    max-width: 450px;
+    text-align: center;
+    opacity: .9;
+    line-height: 75px;
+    margin-bottom: 3rem;
+}
+
+.text-dark {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    max-width: 450px;
+    color: wheat;
+    text-align: center;
+    opacity: .9;
+    line-height: 75px;
+    margin-bottom: 3rem;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 8rem;
+}
+
+
+
+@media screen and (max-width:1150px) {
+    .swiper-slide {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 3rem;
+        padding-top: 0rem;
+    }
+
+    .app__hero {
+        background-position: left;
+    }
+
+    .app__hero-dark {
+        background-position: left;
+    }
+
+}
+
+
+@media screen and (max-width:650px) {
+    .app__hero {
+        padding: 2rem 1rem 2rem;
+        height: 100vh;
+    }
+
+    .app__hero-dark {
+        padding: 2rem 1rem 2rem;
+        height: 100vh;
+    }
+
+    .text {
+        font-size: 2.2rem;
+        max-width: 250px;
+        line-height: 50px;
+    }
+
+    .text-dark {
+        font-size: 2.2rem;
+        max-width: 250px;
+        line-height: 50px;
+    }
+
+}
+
+@media screen and (max-width:300px) {
+
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0rem;
+        padding-top: 1rem;
+    }
+}

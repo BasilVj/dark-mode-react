@@ -1,0 +1,81 @@
+.app__section2 {
+    height: 100%;
+    width: 100%;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../public/bg.jpg);
+    background-position: right;
+    background-size: contain;
+}
+
+.app__section2-dark {
+    height: 100%;
+    width: 100%;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../public/dark1.jpg);
+    background-position: right;
+    background-size: contain;
+}
+
+.section2__headtext {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.section2__headtext-dark {
+    color: wheat;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.cards-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1150px) {
+    .app__section2 {
+        background: url(../../public/bg.jpg);
+        background-position: right;
+        background-size: cover;
+        padding: 3rem 1rem;
+    }
+    .app__section2-dark {
+        background-position: right;
+        background-size: cover;
+        padding: 3rem 1rem;
+    }
+
+
+    .cards-container2 {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .app__section2 {
+        min-height: 100vh;
+        width: 100%;
+    }
+    .app__section2-dark {
+        min-height: 100vh;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app__section2 {
+        padding: 3rem 1rem;
+    }
+    .app__section2-dark {
+        padding: 3rem 1rem;
+    }
+}

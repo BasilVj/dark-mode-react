@@ -1,0 +1,83 @@
+.app__section1 {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../public/bg.jpg);
+    background-size: cover;
+
+}
+
+.app__section1-dark {
+    height: 100vh;
+    width: 100%;
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(../../public/dark1.jpg);
+    background-size: cover;
+
+}
+
+.section__headtext {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.section__headtext-dark {
+    font-weight: 500;
+    color: wheat;
+    font-size: 2rem;
+}
+
+.cards-container {
+    display: flex;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width:1150px) {
+    .app__section1 {
+
+        padding: 3rem 1rem;
+
+    }
+}
+
+@media screen and (max-width:650px) {
+    .app__section1 {
+        height: 100%;
+        width: 100%;
+        padding: 3rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .app__section1-dark {
+        height: 100%;
+        width: 100%;
+        padding: 3rem 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .app__section1 {
+        padding: 2rem 0rem;
+
+    }
+
+    .app__section1-dark {
+        padding: 2rem 0rem;
+
+    }
+}
